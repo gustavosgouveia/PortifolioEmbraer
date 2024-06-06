@@ -17,6 +17,35 @@ body{
     margin: 0 auto;
 }
 
+.flex{
+    display: flex;
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #a200ff;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-contato button:hover{
+    box-shadow: 0px 0px 8px #a200ffc0;
+    transform: scale(1.05);
+}
+
+h2.titulo{
+    color: white;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: #a200ff;
+}
 /* Estilo do cabeçalho */
 
 header{
@@ -50,16 +79,76 @@ header nav ul li{
     padding: 0 40px;
 }
 
-header .btn-contato button{
-    padding: 10px 40px;
-    font-size: 18px;
-    font-weight: 600;
-    background-color: #03FA6E;
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
+/* Estilo do topo do site */
+
+section.topo-do-site{
+    padding: 40px 4%;
 }
 
-header .btn-contato button:hover{
-    box-shadow: 0px 0px 8px #03fa6ece;
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site .txt-topo-site h1{
+    color: white;
+    font-size: 34px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-site h1 span{
+    color: #a200ff;
+}
+
+.topo-do-site .txt-topo-site p{
+    color: white;
+    margin: 40px 0px ;
+}
+
+.topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+/* competencias */
+
+section.competencias{
+    padding: 40px 4%;
+}
+
+section.competencias .flex{
+    gap: 60px;
+}
+
+.competencias .competencias-box{
+    color: white;
+    padding: 40px;
+    transition: .2s;
+    border-radius: 20px;
+    margin-top: 45px;
+}
+
+.competencias .competencias-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.411);
+}
+
+.competencias .competencias-box i{
+    font-size: 70px;
+    color: #a200ff;
+}
+
+.competencias .competencias-box h3{
+    font-size: 28px;
+    margin: 15px;
 }
