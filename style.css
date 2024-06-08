@@ -344,8 +344,9 @@ footer .line-footer p a{
     text-decoration: none;
 }
 
-
-
+.competencias .competencias-box h3{
+    font-size: 25px;
+}
 
 
 @media screen and (max-width: 1020px){
