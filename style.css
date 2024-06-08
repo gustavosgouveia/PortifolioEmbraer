@@ -17,6 +17,10 @@ body{
     margin: 0 auto;
 }
 
+i{
+    color: black;
+}
+
 .flex{
     display: flex;
 }
@@ -408,7 +412,6 @@ footer .line-footer p a{
 
     .btn-social{
         text-align: center;
-        color: black;
     }
 
     .img-sobre img{ 
