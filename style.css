@@ -17,10 +17,6 @@ body{
     margin: 0 auto;
 }
 
-i{
-    color: black;
-}
-
 .flex{
     display: flex;
 }
