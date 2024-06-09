@@ -176,6 +176,7 @@ section.topo-do-site .flex{
 .topo-do-site .img-topo-site img{
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
+
 }
 
 @keyframes flutuar{
@@ -233,6 +234,10 @@ section.sobre{
     padding: 80px 4%;
 
 }   
+
+.img-sobre img{
+    border-radius: 20px;
+}
 
 section.sobre .flex{
     align-items: center;
